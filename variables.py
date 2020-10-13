@@ -12,4 +12,27 @@ VARIABLE RULES:
   - Variable names are case sensitive (name and NAME are different variables)
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
-""
+"""
+
+# x = 1           #int
+# y = 2.5         # float
+# name = 'Brad'   # string
+# is_cool = True  # bool
+
+# multiple assignment
+x,y,name, is_cool = (1,2.5,'Brad', True)
+
+print(x,y,name,is_cool)
+
+# Basic math
+a = x + y
+ 
+
+
+# casting
+x = str(x)
+y = int(y)
+z = float(y)
+# check type
+print(type(z))
+print(z)
